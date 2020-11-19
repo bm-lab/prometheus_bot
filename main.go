@@ -338,8 +338,6 @@ func telegramBot(bot *tgbotapi.BotAPI) {
 					introduce(update)
 				}
 			}
-		} else if update.Message != nil && update.Message.Text != "" {
-			introduce(update)
 		}
 	}
 }
