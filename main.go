@@ -307,6 +307,8 @@ var funcMap = template.FuncMap{
 	"str_FormatFloat":        str_FormatFloat,
 	"str_Format_Byte":        str_Format_Byte,
 	"str_Format_MeasureUnit": str_Format_MeasureUnit,
+	"str_HTMLEscapeString":   template.HTMLEscapeString,
+	"str_URLQueryEscaper":    template.URLQueryEscaper,
 	"HasKey":                 HasKey,
 }
 
